@@ -29,19 +29,33 @@ A web-based **Treasure Hunt Game** built using **CodeIgniter 4**, **Tailwind CSS
 
 ## 📁 Project Structure
 
-ci4_project
+Treasure-Hunt-Game/
+├── app/                        # Main application folder (CodeIgniter 4)
+│   ├── Config/                # Application configuration files
+│   ├── Controllers/           # Handles HTTP requests and game logic
+│   ├── Models/                # Database interaction and data logic
+│   ├── Views/                 # Frontend templates (HTML + Tailwind)
+│   ├── Filters/               # Route filters (e.g., authentication)
+│   └── Helpers/               # Custom helper functions
+│
+├── public/                    # Publicly accessible files
+│   ├── assets/               # JS, CSS, images, and map icons
+│   └── index.php             # Entry point of the application
+│
+├── writable/                  # Logs, cache, and file uploads
+│   └── logs/                 # Application log files
+│
+├── tests/                     # CodeIgniter 4 unit and feature tests
+│
+├── .env                       # Environment-specific settings (not committed)
+├── .gitignore                 # Ignore rules for Git
+├── composer.json              # PHP dependency manager config
+├── tailwind.config.js         # Tailwind CSS configuration
+├── postcss.config.js          # PostCSS setup for Tailwind
+├── package.json               # Frontend dependencies (optional)
+├── README.md                  # Project documentation
+└── spark                      # CI4 CLI tool
 
-| |-- app/
-│ |-- Controllers/
-│ |-- Models/
-│ |-- Views/
-|--public/
-│ |-- index.php
-|--- .env
-|--- .gitignore
-|--- README.md
-
----
 
 ## 🔧 Installation
 
