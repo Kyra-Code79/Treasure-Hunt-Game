@@ -206,9 +206,9 @@ class Database extends Config
            $this->production = [
             'DSN'          => '',
             'hostname'     => getenv('database.default.hostname') ?: 'localhost',
-            'username'     => getenv('database.default.username') ?: 'haby3879',
-            'password'     => getenv('database.default.password') ?: 'T7EwdGKk21b349',
-            'database'     => getenv('database.default.database') ?: 'haby3879_treasure_hunt',
+            'username'     => getenv('database.default.username'),
+            'password'     => getenv('database.default.password'),
+            'database'     => getenv('database.default.database'),
             'DBDriver'     => 'MySQLi',
             'DBPrefix'     => '',
             'pConnect'     => false,
