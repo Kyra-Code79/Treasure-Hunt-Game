@@ -59,8 +59,6 @@ This appears to be a **Game Hunting/Discovery Platform** project with elements o
 
 ## 📁 Project Structure
 
-## 📁 Project Structure
-
 | Path                 | Description                                       |
 |----------------------|---------------------------------------------------|
 | `app/`               | Main CodeIgniter app folder (controllers, views)  |
