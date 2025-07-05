@@ -29,16 +29,17 @@ A web-based **Treasure Hunt Game** built using **CodeIgniter 4**, **Tailwind CSS
 
 ## 📁 Project Structure
 
-ci4_project/
-├── app/
-│ ├── Controllers/
-│ ├── Models/
-│ ├── Views/
-├── public/
-│ └── index.php
-├── .env
-├── .gitignore
-└── README.md
+ci4_project
+
+| |-- app/
+│ |-- Controllers/
+│ |-- Models/
+│ |-- Views/
+|--public/
+│ |-- index.php
+|--- .env
+|--- .gitignore
+|--- README.md
 
 ---
 
