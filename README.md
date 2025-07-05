@@ -29,32 +29,19 @@ A web-based **Treasure Hunt Game** built using **CodeIgniter 4**, **Tailwind CSS
 
 ## 📁 Project Structure
 
-Treasure-Hunt-Game/
-├── app/                        # Main application folder (CodeIgniter 4)
-│   ├── Config/                # Application configuration files
-│   ├── Controllers/           # Handles HTTP requests and game logic
-│   ├── Models/                # Database interaction and data logic
-│   ├── Views/                 # Frontend templates (HTML + Tailwind)
-│   ├── Filters/               # Route filters (e.g., authentication)
-│   └── Helpers/               # Custom helper functions
-│
-├── public/                    # Publicly accessible files
-│   ├── assets/               # JS, CSS, images, and map icons
-│   └── index.php             # Entry point of the application
-│
-├── writable/                  # Logs, cache, and file uploads
-│   └── logs/                 # Application log files
-│
-├── tests/                     # CodeIgniter 4 unit and feature tests
-│
-├── .env                       # Environment-specific settings (not committed)
-├── .gitignore                 # Ignore rules for Git
-├── composer.json              # PHP dependency manager config
-├── tailwind.config.js         # Tailwind CSS configuration
-├── postcss.config.js          # PostCSS setup for Tailwind
-├── package.json               # Frontend dependencies (optional)
-├── README.md                  # Project documentation
-└── spark                      # CI4 CLI tool
+## 📁 Project Structure
+
+| Path                 | Description                                       |
+|----------------------|---------------------------------------------------|
+| `app/`               | Main CodeIgniter app folder (controllers, views)  |
+| `public/`            | Public assets and entry point (`index.php`)       |
+| `writable/`          | Writable data: logs, cache, sessions              |
+| `tests/`             | Automated tests (unit/feature)                    |
+| `.env`               | Local environment variables                       |
+| `.gitignore`         | Git exclude rules                                 |
+| `composer.json`      | PHP dependencies (Composer)                       |
+| `tailwind.config.js` | Tailwind CSS config                               |
+| `README.md`          | This file                                         |
 
 
 ## 🔧 Installation
