@@ -60,7 +60,9 @@ A web-based **Treasure Hunt Game** built using **CodeIgniter 4**, **Tailwind CSS
    - Copy .env.example to .env and configure:
    ```bash
        cp .env.example .env
+   ```
    - Set your database credentials:
+   ```bash
        database.default.hostname = localhost
        database.default.database = treasure_hunt
        database.default.username = root
