@@ -42,7 +42,7 @@ This appears to be a **Game Hunting/Discovery Platform** project with elements o
 - Implement CI/CD pipeline for automated deployment
 
 ### 📁 Usage of IBM Watson
-resources/collab.png
+![Preview](resources/image.png)
 ---
 
 ## 🛠️ Tech Stack
